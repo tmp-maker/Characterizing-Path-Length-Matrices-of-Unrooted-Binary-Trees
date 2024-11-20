@@ -476,7 +476,7 @@ class SequenceManipulator:
                 if t_values:
                     for e in t_values:
                         for ee in e:
-                            print(ee, end=" ")
+                            print(int(round(ee)), end=" ")
                         print("")
                     triang_feasible_result.append(el)
                 else:
